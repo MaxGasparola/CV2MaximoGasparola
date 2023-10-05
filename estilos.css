@@ -1,0 +1,185 @@
+
+/*
+h1{
+    color: cornflowerblue;
+}
+img{
+    border: solid 3px;
+    padding: 25px;
+    background-color: yellow;
+    border-radius: 20px;
+}
+#subtitulo{
+    font-size: medium;
+    background-color: yellow;
+    padding: 10px;
+    color: red;
+    width: 200px;
+}
+.claseLetras{
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+}
+footer{
+    background-color: aliceblue;
+    color: blue;
+}
+nav{
+    background-color: rgba(87, 67, 48, 1);
+    display: flex;
+}
+.boton{
+    background-color: greenyellow;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    height: 50px;
+}
+*/
+
+
+/*imports*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(235, 225, 189, 1);
+}
+/*estilados de la navegacion*/
+header{
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.colorFondoPrincipal{
+    background-color: rgba(87, 67, 48, 1);
+    justify-content: flex-end;
+    display: flex;
+}
+
+.navegacionHeader{
+    display: flex;
+    width: 30%;
+    
+
+}
+.listaNavegacion{
+    list-style: none;
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin-top: 10px;
+    
+
+}
+.linkNav{
+    text-decoration: none;
+    color: rgba(235, 225, 189, 1);;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    
+    justify-content: space-between;
+}
+.tituloPrincipal{
+    font-family: 'Lexend Exa', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
+.compt{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.tituloPrincipalCompetencias{
+    font-family: 'Lexend Exa', sans-serif;
+    
+    font-size: 2rem;
+}
+
+/*
+.colorSeccionPrincipal{
+    background-color: rgba(235, 225, 189, 1);
+    
+}
+*/
+main{
+    
+    height: 80vh;
+}
+.cajaBiografia{
+    
+    height: 60vh;
+    width: 60vw;
+    margin: 50px auto;
+    border-radius: 65px 65px 65px 65px;
+    -webkit-border-radius: 65px 65px 65px 65px;
+    -moz-border-radius: 65px 65px 65px 65px;
+    background: #c5b079;
+    border: 5px solid #1d1a1a;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.55);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.55);
+
+}
+.claseLetras{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+.hijo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    align-items: center;
+}
+.hijo img{
+    width: 300px;
+    height: 300px;
+    border-radius: 162px 161px 161px 161px;
+    -webkit-border-radius: 162px 161px 161px 161px;
+    -moz-border-radius: 162px 161px 161px 161px;
+    border: 6px solid #000000;
+}
+.tamañoFooter{
+    height: 7vh;
+    margin-bottom: 0;
+    margin-top: 80px;
+}
+.listaDeCompetencias{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    padding-left: 0;
+}
+.listaDeCompetencias li{
+    display: flex;
+    
+    margin-bottom: 10px;
+}
+
+.bullet {
+    margin-right: 10px;
+    font-size: 18px;
+}
