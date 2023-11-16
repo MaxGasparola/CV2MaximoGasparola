@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body class="bodyQuizz">
+    <header class="header">
+        <div class="logo">
+            <img src="./img/dbz-majin-m-juli-jee-removebg-preview.png" alt="Logo de la pagina">
+        </div>
+        
+    
+        <nav class="navegacionHeader">
+            
+            <ul class="listaNavegacion">
+                <li>
+                    <a href="./index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="./competencias.html">Competencias</a>
+                </li>
+                <li>
+                    <a href="./educacion.html">Educación</a>
+                </li>
+                <li>
+                    <a href="./experiencias.html">Experiencias</a>
+                </li>
+                <li>
+                    <a href="#">Quizz</a>
+                </li>
+        </nav>
+       
+    </header>
+    <section id="pantalla-inicial">
+        <h1>PASAPALABRA</h1>
+        <button id="comenzar">COMENZAR JUEGO</button>
+    </section>
+    <section id="pantalla-juego">
+        <div class="container">
+            <span id="tiempo">60</span>
+        </div>
+    
+        <div class="contendor-pregunta">
+            <span id="letra-pregunta">Z</span>
+            <h2 id="pregunta">Pregunta...</h2>
+            <input type="text" id="respuesta">
+            <div class="botones">
+                <button id="responder">Responder</button>
+                <button id="pasar">Pasa Palabra</button>
+            </div>
+        </div>
+    </section>
+    <section id="pantalla-final">
+        <h1>Resumen</h1>
+        <h3>Acertadas</h3>
+        <span id="acertadas">
+            10
+        </span>
+        <h3 id="score">40% de acierto</h3>
+        <button id="recomenzar">Jugar de Nuevo</button>
+    </section>
+
+      
+    <script src="script.js"></script>
+</body>
+</html>
